@@ -1,0 +1,41 @@
+.boton {
+        width: 200px;
+        height: 200px;
+        margin-right: 10px;
+        display: inline-block;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        border: none;
+        cursor: pointer;
+    }
+
+    .ejercicio1 {
+        background-color: purple;
+    }
+
+    .ejercicio2 {
+        background-color: green;
+    }
+    .centrado{
+    text-align: center;
+}
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.boton2 {
+    background-color: #007bff;
+    color: #fff;
+
+    border-radius: 3px;
+    cursor: pointer;
+}

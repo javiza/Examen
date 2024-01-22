@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="/static/css/estilos.css">
+</head>
+<body>
+    <div class="container centrado">
+
+    <h2>Calculo de compras</h2>
+    <!-- ejericio1.html -->
+    <form action="/ejercicio1" method="POST">
+        <div>
+            <label for="nombre">Ingresa tu nombre</label>
+        </div>
+        <div>
+            <input class="form-group" type="text" id="nombre" name="nombre">
+        </div>
+
+        <div>
+            <label for="edad">Ingresa tu edad</label>
+        </div>
+        <div>
+            <input class="form-group" type="number" id="edad" name="edad">
+        </div>
+         <div >
+            <label for="tarros">Ingresa la cantidad de tarros de pintura a comprar</label>
+        </div>
+        <div>
+            <input class="form-group" type="number" id="tarros" name="tarros">
+        </div>
+
+        <div>
+            <input   class="boton2 form-group" type="submit" value="Enviar">
+        </div>
+        <div class="centrado">
+            <p> {{ nombre }}</p>
+             <p> {{ totalSinDescuento }} </p>
+             <p> {{ descuento }} </p>
+             <p> {{ totalPagar }} </p>
+        </div>
+
+
+    </form>
+</div>
+</body>
+</html>
